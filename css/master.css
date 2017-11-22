@@ -1,0 +1,115 @@
+::selection {
+  background: grey; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: grey; /* Gecko Browsers */
+}
+
+
+body{
+  margin: 0
+}
+
+header{
+  display: flex;
+  position: fixed;
+  margin: 40px;
+  width: 85vw;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 99
+}
+
+section{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-grow: 0;
+  align-content: center;
+  justify-content: center;
+}
+
+#home{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  position: fixed;
+  z-index: 1;
+  flex-wrap: wrap;
+}
+
+#what{
+  position: absolute;
+  background: white;
+  top: 100vh;
+  z-index: 2;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+#who{
+  position: absolute;
+  background: black;
+  color: white;
+  top: 200vh;
+  z-index: 3;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: left;
+}
+
+#work{
+  position: absolute;
+  background-color: white;
+  top: 300vh;
+  z-index: 3;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+
+
+}
+
+#contact{
+  position: absolute;
+  background-color: black;
+  top: 400vh;
+  z-index: 4;
+  color: white;
+  height: 100vh;
+  background:black;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+
+}
+a.acontact{
+  transition: 0.1s ease
+}
+a.acontact:hover{
+color: white
+}
+#works{
+  display: flex;
+  margin-left: 300px;
+  margin-right: 300px;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  color: rgba(0, 0, 0, 0);
+  transition: 0.2s ease;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 50px;
+  align-self: center;
+  padding:0
+}
+
+.blackdiv:hover{
+  width: inherit;
+  height: 100%;
+  transition: 0.2s ease
+}

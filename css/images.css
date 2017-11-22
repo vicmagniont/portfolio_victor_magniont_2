@@ -1,0 +1,64 @@
+.headlogo{
+  width: 50px;
+  margin-right: 100px
+}
+.logo{
+  width:600px;
+  height: 200px;
+  padding-left: 100px;
+  padding-right: 100px;
+  flex-basis: 100%;
+}
+.next{
+  width: 50px;
+  height: 50px;
+  color: white;
+  display: block;
+  z-index: 99;
+  color: rgba(255, 255, 255, 1);
+
+}
+.workimg{
+  height: 160px;
+  width: 160px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  margin: 20px;
+  margin-top: 0;
+  transition: 0.2s ease
+}
+.blackdiv{
+  height: 160px;
+  width: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.blackdiv:hover{
+  color: rgba(0, 0, 0, 1);
+  background-color: rgba(255, 255, 255, 0.7);
+
+}
+
+
+#lapg{
+  background-image: url(images/lapg.jpg);
+}
+#hesto{
+  background-image: url(images/hesto.jpg);
+}
+#alpha{
+  background-image: url(images/alpha.jpg);
+}
+#stencil{
+  background-image: url(images/stencil.jpg);
+}
+#rue{
+  background-image: url(images/rue.jpg);
+}

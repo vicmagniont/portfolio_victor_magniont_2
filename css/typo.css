@@ -1,0 +1,141 @@
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.headbutton{
+  font-family: "geomanist-light-webfont";
+  display: flex;
+  color: black;
+  text-decoration: none;
+  background-color: white;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  transition: 0.1s;
+  transition-timing-function: ease-in-out;
+  box-sizing: border-box;
+  border: 2px solid black
+
+
+}
+.headbutton:hover{
+  background-color: black;
+  color: white;
+  border: 2px solid white
+
+}
+h1{
+  text-align: center;
+  margin: 0;
+  margin-bottom: 100px;
+  font-size: 5vmax;
+	font-family: "salome_stencil-webfont";
+  font-weight: lighter;
+  flex-basis:100%;
+  margin-left: 40px;
+  margin-right: 40px
+}
+.un{
+  font-family: "geomanist-light-webfont";
+  padding-left: 5vw;
+  font-size: 2vmax;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  text-align: left;
+  margin-top: 0;
+  flex-basis: 100%
+}
+#plus::before{
+  content: "et";
+  transform: translateX(-130%);
+  position: absolute;
+  text-transform: none;
+}
+.bold{
+  font-family: "geomanist-black-webfont";
+  text-transform: none;
+
+}
+.boldd{
+  font-family: "geomanist-black-webfont";
+  text-transform: none;
+transform: translateY(1px);}
+.nous{
+  font-family: "geomanist-regular-webfont";
+  font-size: 2vmax;
+  margin: 0px;
+  flex-basis: 100%;
+  padding-left: 25vw
+
+}
+.light{
+  font-variant: small-caps;
+  color: white;
+  font-weight: lighter;
+ }
+ .blue{
+ font-variant: small-caps;
+ color: black
+ }
+
+.maintext{
+  font-family: "geomanist-regular-webfont";
+  padding-left: 20vw;
+  padding-right: 20vw;
+  font-size: 1.2vmax;
+  line-height: 1.7em
+}
+.color{
+  font-family: "geomanist-regular-webfont";
+}
+
+.workimg{
+  font-family: "geomanist-black-webfont";
+}
+
+.acontact{
+  text-align: center;
+  flex-basis: 100%;
+
+}
+#contacts{
+  font-family: "geomanist-regular-webfont";
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 10vh;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  line-height: 1.5;
+  flex-basis: 100%
+}
+
+#contacts::after{
+  content: "";
+  background-color: white;
+  width: 10px;
+  height: 10px;
+  transform: translatex(49.3vw) translatey(10px);
+  border-radius: 100%;
+}
+#contacts::before{
+  content: "";
+  background-color: white;
+  width: 10px;
+  height: 10px;
+  transform: translatex(49.3vw) translatey(-10px);
+  border-radius: 100%;
+}
+
+
+.bientôt{
+  margin-top: 14vh;
+  font-family: "geomanist-light-webfont";
+  text-align: center;
+  font-size: 5vw;
+  flex-basis: 100%
+}

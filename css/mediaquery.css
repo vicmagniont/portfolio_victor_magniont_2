@@ -1,0 +1,53 @@
+@media (max-width:1220px) {
+#works{
+  margin-left: 150px;
+  margin-right: 150px;
+}
+}
+@media (max-width:920px) {
+  .logo{
+margin-bottom: 10vh }
+#works{
+  margin-left: 80px;
+  margin-right: 80px;
+}
+}
+@media (max-width:775px) {
+#works{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.workimg{
+  width: 130px;
+  height: 130px;
+  margin: 10px
+}
+}
+@media (max-width:950px) {
+  .headlogo{
+    margin-left: 45vw;
+    margin-right: 45vw;
+    margin-bottom: 15px;
+
+  }
+  .maintext{
+    font-size: 1.7vmax;
+    padding-left: 10vw;
+    padding-right: 10vw
+  }
+header{
+  flex-wrap: wrap;
+  justify-content: center;
+  margin:0;
+  width: 100vw;
+  margin-top: 20px
+
+}
+.headbutton{
+  font-size: 0.7em;
+  width: 80px;
+  height: 30px;
+  margin-left: 5px;
+  margin-right: 5px
+}
+}

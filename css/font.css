@@ -1,0 +1,32 @@
+@font-face{
+	font-family: 'salome_stencil-webfont';
+	src: url('font/salome_stencil-webfont.eot');
+	src: url('font/salome_stencil-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('font/salome_stencil-webfont.woff') format('woff'),
+	     url('font/salome_stencil-webfont.ttf') format('truetype'),
+	     url('font/salome_stencil-webfont.svg#webfont') format('svg');
+}
+@font-face{
+	font-family: 'geomanist-black-webfont';
+	src: url('font/geomanist-black-webfont.eot');
+	src: url('font/geomanist-black-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('font/geomanist-black-webfont.woff') format('woff'),
+	     url('font/geomanist-black-webfont.ttf') format('truetype'),
+	     url('font/geomanist-black-webfont.svg#webfont') format('svg');
+}
+@font-face{
+	font-family: 'geomanist-regular-webfont';
+	src: url('font/geomanist-regular-webfont.eot');
+	src: url('font/geomanist-regular-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('font/geomanist-regular-webfont.woff') format('woff'),
+	     url('font/geomanist-regular-webfont.ttf') format('truetype'),
+	     url('font/geomanist-regular-webfont.svg#webfont') format('svg');
+}
+@font-face{
+	font-family: 'geomanist-light-webfont';
+	src: url('font/geomanist-light-webfont.eot');
+	src: url('font/geomanist-light-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('font/geomanist-light-webfont.woff') format('woff'),
+	     url('font/geomanist-light-webfont.ttf') format('truetype'),
+	     url('font/geomanist-light-webfont.svg#webfont') format('svg');
+}
